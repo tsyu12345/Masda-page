@@ -1,6 +1,12 @@
+@font-face {
+    font-family:'Dot';
+    src: url('PixelMplus10-Regular.ttf');
+}
+
 body {
     background-color: black;
-    font-family: serif;
+    color: white;
+    font-family: Dot;
 }
 
 header {
@@ -77,7 +83,7 @@ header {
 }
 
 .nav li a{
-    color: black;
+    color: white;
 
 }
 
@@ -137,7 +143,7 @@ article {
     font-weight: bold;
     padding-bottom: 10px;
     width:auto;
-    border-bottom: 2px black solid;
+    border-bottom: 2px white solid;
 }
 
 .sub-title {
@@ -162,8 +168,8 @@ article {
 }
 
 footer {
-    background-color: black;
-    color: whitesmoke;
+    background-color: gray;
+    color: white;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -182,7 +188,7 @@ footer .container {
     margin-right: 20px;
 }
 .bottom-nav li a {
-    color: whitesmoke;
+    color: white;
 }
 
 .sns-icons {
@@ -194,5 +200,5 @@ footer .container {
     margin: 10px;
 }
 .my-icon {
-    color: whitesmoke;
+    color: white;
 }
